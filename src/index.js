@@ -1,7 +1,10 @@
 import App from "./App.svelte"
 
 let app = new App({
-    target: document.body
+  target: document.body,
+  props: {
+   pageTitle:"matterholt like to code"
+ }
 })
 
 export default app
